@@ -2,12 +2,101 @@
 
 
 /* Global Styles */
+/* Creates and sets the global variables*/
+* { 
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    --clr-primary: #9c5526;
+    --clr-bg: #54331d;
+    --clr-neutral:#ede7e3;
+    --clr-black: hsla(30, 4%, 20%, 0.8);
+    --clr-neutral75: hsl(24, 22%, 91%, 0.75);
+}
+/* Sets the font-family, color, line height and background image for body */
+body { 
+    font-family:'Open Sans', sans-serif;
+    color: --clr-black;
+    line-height: 1.5;
 
+   
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+        ),
+         url('../images/coffee.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+
+}
+/*gives h1,h3,h4 font-family, weight, and line height */
+h1, h3, h4 {
+    font-family:'Oswald', sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 2.488rem;
+}
+
+h3 {
+    font-size: 1.728rem;
+}
+
+h4{
+    font-size: 1.44rem;
+}
 
 /* Header Styles */
+header {
+    color: var(--clr-neutral);
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
 
+#established {
+    color: var(--clr-neutral75);
+}
 
 /* Main Styles */
+
+main {
+    background-color: var(--clr-neutral);
+    width: 80%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+main h3 {
+color: var(--clr-primary);
+margin-bottom: 1rem;
+}
+
+main h4 {
+color: var(--clr-primary);
+margin-bottom: 1rem;
+align-self: center;
+}
+
+#about, #menu {
+    margin-bottom: 1rem;
+}
+
+#menu #title{
+    text-align: left;
+}
+#menu #price{
+    text-align: right;
+}
 
 
 /* About Section */
