@@ -84,17 +84,17 @@ margin-bottom: 1rem;
 main h4 {
 color: var(--clr-primary);
 margin-bottom: 1rem;
-align-self: center;
+text-align: center;
 }
 
-#about, #menu {
+#about #menu {
     margin-bottom: 1rem;
 }
 
-#menu #title{
+#menu p.title{
     text-align: left;
 }
-#menu #price{
+#menu p.price{
     text-align: right;
 }
 
