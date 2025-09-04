@@ -100,6 +100,17 @@ align-self: center;
 
 
 /* About Section */
+p {
+    margin: 0.5rem;
+}
+section#about > ul > li {
+    list-style-type: none;
+    background-image: url('../images/logo.png');
+    background-repeat: no-repeat;
+    background-size: 1em;
+    background-position: 0em, 0.3em;
+    padding-left: 1.5em;
+}
 
 
 /* Menu Section */
@@ -128,6 +139,31 @@ hr {
 }
 
 /* Location and Hours Section */
-
-
+section#location div{
+    text-align: center;
+}
+section#location iframe{
+    width: 360px;
+    height: 270px;
+    border: 0px;
+    margin-bottom: 1rem;
+}
+section#location div p.phone a{
+    color: var(--clr-primary);
+    text-decoration: none;
+    border-bottom: transparent solid 2px;
+}
+section#location div p.phone a:hover{
+    border-bottom: solid 2px;
+}
 /* Footer Section */
+footer{
+    background-color: var(--clr-bg);
+    color: var(--clr-neutral);
+    font-size: 0.833rem;
+    text-align: center;
+    padding: 1rem 0px;
+    margin-top: 2rem;
+}
+
+
